@@ -9,6 +9,6 @@ The app also features a small quiz to engage users about facts they don't know r
 All data si stored in Firebase ()
 
 # Demo
-Demo of the Demo- Nexus_5X_API_29_x86_5554.mp4
-C:\Users\LOL\Desktop\LOIC\ECE\ING4\PPE\ScanSort4_v2\Demo- Nexus_5X_API_29_x86_5554.mp4
+You can view the demo of the mobile application in `Demo-Nexus_5X_API_29_x86_5554.mp4`
 
+![alt text](image.png)
