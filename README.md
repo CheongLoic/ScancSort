@@ -6,7 +6,7 @@ It’s an eco-friendly mobile app designed to promote sustainability and respons
 
 The app also features a small quiz to engage users about facts they don't know related to waste management
 
-All data si stored in Firebase ()
+All data si stored in Firebase
 
 # Demo
 You can view the demo of the mobile application in `Demo-Nexus_5X_API_29_x86_5554.mp4`
