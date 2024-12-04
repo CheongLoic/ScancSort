@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".compteActivity"
+    android:background="@drawable/backgroung_paper">
+
+    <ProgressBar
+        android:id="@+id/activity_compte_progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:visibility="invisible"
+        android:layout_centerInParent="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/activity_compte_titre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="My account"
+            android:textSize="28sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/activity_compte_textView_lastname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"
+            android:text="Last name"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/activity_compte_editText_lastname"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Last name"
+            android:inputType="text"
+            android:textColorHint="#000000"/>
+
+        <TextView
+            android:id="@+id/activity_compte_textView_firstname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"
+            android:text="First name"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/activity_compte_editText_firstname"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="First name"
+            android:inputType="text"
+            android:textColorHint="#000000"/>
+
+        <TextView
+            android:id="@+id/activity_compte_textView_email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"
+            android:text="Email"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/activity_compte_editText_email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#000000"/>
+
+        <TextView
+            android:id="@+id/activity_compte_textView_score"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"
+            android:text="Score"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/activity_compte_textView_score_displayed"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:ems="10"
+            android:text="0/7"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/activity_compte_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:text="Submit changes"
+            android:textColor="#FFFFFF"
+            android:background="#5CB85C"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "654893526485",
+    "firebase_url": "https://scansort-e4233.firebaseio.com",
+    "project_id": "scansort-e4233",
+    "storage_bucket": "scansort-e4233.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654893526485:android:5f866e434b71cd9660215c",
+        "android_client_info": {
+          "package_name": "scansort.fr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654893526485-ovvn7eajiaa0gl8fiesecbkcme3clkck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "scansort.fr",
+            "certificate_hash": "72c00d2aab0d21e1461715cb8d2b462e5129421f"
+          }
+        },
+        {
+          "client_id": "654893526485-e2gp7v17j3ceepp60qcebrksiis99l85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAULn24rwtC9YcyQl5E9nxjtFN2tOzHL6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654893526485-e2gp7v17j3ceepp60qcebrksiis99l85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
